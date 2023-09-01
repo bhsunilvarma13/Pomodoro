@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F2BE22;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 150px;
+}
+
+.btns {
+  z-index: 1;
+  bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+  box-shadow: 1px 1px;
+}
