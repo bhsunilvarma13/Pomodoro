@@ -26,7 +26,7 @@ document.getElementById("start").addEventListener("click", () => {
       seconds < 10 ? "0" + seconds.toString() : seconds
     }`;
     document.title = `Pomodoro | ${text.innerText}`;
-  }, 1);
+  }, 1000);
 });
 
 document.getElementById("reset").addEventListener("click", () => {
